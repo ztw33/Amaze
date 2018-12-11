@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:background="@color/accent_indigo"
+            android:fitsSystemWindows="false"
+            android:theme="?attr/toolbar_theme"
+            app:layout_collapseMode="pin"
+            app:popupTheme="?attr/popup">
+
+
+            <TextView
+                android:id="@+id/text_view_title"
+                style="@style/TextAppearance.AppCompat.Widget.ActionBar.Title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/savebox"
+                android:textColor="@android:color/white" />
+
+
+        </android.support.v7.widget.Toolbar>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/lock1"
+                        android:layout_width="75dp"
+                        android:layout_height="match_parent"
+                        app:srcCompat="@drawable/ic_folder_lock_grey600_36dp"
+                        android:contentDescription="@string/lockedfiledesc" />
+
+                    <TextView
+                        android:id="@+id/lockfile1"
+                        android:layout_width="217dp"
+                        android:layout_height="100dp"
+                        android:gravity="center"
+                        android:text="@string/lockedfile" />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/lock2"
+                        android:layout_width="75dp"
+                        android:layout_height="match_parent"
+                        app:srcCompat="@drawable/ic_folder_lock_grey600_36dp"
+                        android:contentDescription="@string/lockedfiledesc" />
+
+                    <TextView
+                        android:id="@+id/lockfile2"
+                        android:layout_width="217dp"
+                        android:layout_height="100dp"
+                        android:gravity="center"
+                        android:text="string/lockedfile" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/lock3"
+                        android:layout_width="75dp"
+                        android:layout_height="match_parent"
+                        app:srcCompat="@drawable/ic_folder_lock_grey600_36dp"
+                        android:contentDescription="@string/lockedfiledesc" />
+
+                    <TextView
+                        android:id="@+id/lockfile3"
+                        android:layout_width="217dp"
+                        android:layout_height="100dp"
+                        android:gravity="center"
+                        android:text="string/lockedfile" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/lock4"
+                        android:layout_width="75dp"
+                        android:layout_height="match_parent"
+                        app:srcCompat="@drawable/ic_folder_lock_grey600_36dp"
+                        android:contentDescription="@string/lockedfiledesc" />
+
+                    <TextView
+                        android:id="@+id/lockfile4"
+                        android:layout_width="217dp"
+                        android:layout_height="100dp"
+                        android:gravity="center"
+                        android:text="string/lockedfile" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/lock5"
+                        android:layout_width="75dp"
+                        android:layout_height="match_parent"
+                        app:srcCompat="@drawable/ic_folder_lock_grey600_36dp"
+                        android:contentDescription="@string/lockedfiledesc" />
+
+                    <TextView
+                        android:id="@+id/lockfile5"
+                        android:layout_width="217dp"
+                        android:layout_height="100dp"
+                        android:gravity="center"
+                        android:text="string/lockedfile" />
+
+                </TableRow>
+            </TableLayout>
+        </ScrollView>
+
+
+    </LinearLayout>
+
+</android.support.design.widget.CoordinatorLayout>
+
